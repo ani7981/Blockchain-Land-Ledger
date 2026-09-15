@@ -19,7 +19,6 @@ export default function Navbar({ activePage, setActivePage, currentRole, setCurr
             Hyperledger Fabric Land Registry
           </span>
         </div>
-        <span className="nav-badge">Consortium</span>
       </div>
 
       <nav>
