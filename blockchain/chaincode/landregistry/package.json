@@ -1,0 +1,19 @@
+{
+  "name": "landregistry",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric chaincode for Digital Land Registry and Title Verification",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.5",
+    "fabric-shim": "^2.5.5"
+  },
+  "devDependencies": {},
+  "license": "Apache-2.0"
+}
